@@ -102,8 +102,6 @@ _execute_command("{} -m dash.development.component_generator"
                  " ./src/lib/components"
                  " {{cookiecutter.project_shortname}}"
                  " -p package-info.json"
-                 " --jl-prefix '{{ cookiecutter.jl_prefix }}'"
-                 " --r-prefix '{{ cookiecutter.r_prefix }}'"
                  .format(python_executable))
 
 print('\n{} ready!\n'.format(project_shortname))
